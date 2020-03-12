@@ -1,10 +1,16 @@
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 body {
   font-family: "Montserrat", sans-serif;
   color: var(--primary);
   height: 100vh;
-  display: grids;
+  line-height: 1.5;
+}
+
+.container {
+  display: grid;
 }
