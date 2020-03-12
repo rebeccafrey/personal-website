@@ -1,5 +1,7 @@
+@import "header-colors";
+
 .header {
   padding: 20px;
   margin: 20px;
-  background: salmon;
+  background: var(--header-background);
 }
