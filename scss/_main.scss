@@ -50,3 +50,17 @@ img {
   margin: auto;
   color: #a7027d;
 }
+
+@media (min-width: 650px) {
+  .skills__development {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column: 1 / span 1;
+  }
+
+  .skills__further {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column: 2 / span 1;
+  }
+}
