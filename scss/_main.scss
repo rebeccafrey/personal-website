@@ -6,25 +6,21 @@ main {
 img {
   height: 300px;
   padding: 1rem;
-  object-position: center;
+  margin: auto;
 }
 
 .main {
   text-align: center;
 }
 
-.main__content {
-  line-height: 1.5;
+.tags {
+  text-align: center;
 }
 
-.tags {
+.tags__items {
   display: inline-block;
-  justify-content: center;
-  border: solid;
-  border-width: thin;
+  border: thin solid;
   border-color: var(--primary);
   padding: 10px;
   margin: 5px;
-  line-height: 1.5;
-  text-align: center;
 }
