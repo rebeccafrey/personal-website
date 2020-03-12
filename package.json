@@ -4,8 +4,16 @@
   "description": "my personal website",
   "main": "index.html",
   "scripts": {
+    "start": "npm-run-all --parallel sass serve",
+    "sass": "node-sass --source-map true -w --output-style compressed scss/styles.scss docs/styles.css",
+    "serve": "serve docs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.13.1",
+    "npm-run-all": "^4.1.5",
+    "serve": "^11.3.0"
+  }
 }
