@@ -13,3 +13,16 @@
 .hidden {
   display: none !important;
 }
+
+.link {
+  padding: 0.5rem;
+  display: inline-block;
+  text-align: center;
+}
+
+.color__invert {
+  padding: 2rem;
+  background: var(--primary);
+  color: var(--secondary);
+  text-align: center;
+}
