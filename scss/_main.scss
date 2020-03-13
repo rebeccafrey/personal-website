@@ -1,6 +1,6 @@
 main {
   color: var(--primary);
-  padding: 15px;
+  padding: 16px;
   @media (min-width: 650px) {
     padding: 30px;
   }
@@ -29,6 +29,10 @@ img {
   text-align: center;
   background-color: var(--primary);
   padding-bottom: 20px;
+  @media (min-width: 650px) {
+    display: flex;
+    justify-content: space-around;
+  }
 }
 
 .link__contact {

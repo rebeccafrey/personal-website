@@ -7,18 +7,14 @@
 }
 
 @media (min-width: 650px) {
-  nav {
-    display: inline-flex;
-    flex-direction: row;
-    // name und links nach rechts und links verschieben funktioniert nicht
-    justify-items: flex-start;
-
-    .header__heading {
-      align-content: flex-start;
-    }
-
-    .link__header {
-      align-self: flex-end;
-    }
+  .header__heading {
+    display: flex;
+    justify-content: flex-start;
+    align-content: baseline;
+  }
+  .nav__links {
+    display: flex;
+    justify-content: flex-end;
+    align-content: baseline;
   }
 }
