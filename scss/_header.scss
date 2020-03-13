@@ -5,3 +5,16 @@
 .link__header {
   color: var(--secondary);
 }
+
+@media (min-width: 650px) {
+  .header__heading {
+    display: flex;
+    justify-content: flex-start;
+    align-content: baseline;
+  }
+  .nav__links {
+    display: flex;
+    justify-content: flex-end;
+    align-content: baseline;
+  }
+}
