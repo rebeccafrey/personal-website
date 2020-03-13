@@ -52,15 +52,30 @@ img {
 }
 
 @media (min-width: 650px) {
-  .skills__development {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column: 1 / span 1;
+  main {
+    padding: 30px;
   }
 
-  .skills__further {
+  .introduction {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-column: 2 / span 1;
+    grid-template-rows: auto;
+    align-items: center;
+
+    .hello {
+      max-width: 400px;
+    }
+
+    .about {
+      justify-content: space-evenly;
+      max-width: 600px;
+    }
+  }
+
+  .skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    align-items: start;
   }
 }

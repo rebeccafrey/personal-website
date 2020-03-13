@@ -9,10 +9,4 @@ body {
   color: var(--primary);
   height: 100vh;
   line-height: 1.5;
-
-  @media (min-width: 650px) {
-    .container {
-      display: grid;
-    }
-  }
 }

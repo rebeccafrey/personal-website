@@ -5,3 +5,20 @@
 .link__header {
   color: var(--secondary);
 }
+
+@media (min-width: 650px) {
+  nav {
+    display: inline-flex;
+    flex-direction: row;
+    // name und links nach rechts und links verschieben funktioniert nicht
+    justify-items: flex-start;
+
+    .header__heading {
+      align-content: flex-start;
+    }
+
+    .link__header {
+      align-self: flex-end;
+    }
+  }
+}
