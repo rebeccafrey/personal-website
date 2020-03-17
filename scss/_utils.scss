@@ -10,9 +10,9 @@
   width: 100% !important;
 }
 
-.hidden {
+/* .hidden {
   display: none !important;
-}
+} */
 
 .link {
   padding: 0.5rem;
@@ -21,7 +21,7 @@
 }
 
 .color__invert {
-  padding: 2rem;
+  padding: 20px;
   background: var(--primary);
   color: var(--secondary);
   text-align: center;

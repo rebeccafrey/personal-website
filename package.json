@@ -4,7 +4,7 @@
   "description": "my personal website",
   "main": "index.html",
   "scripts": {
-    "start": "nmp run sass && npm-run-all --parallel sass:watch serve",
+    "start": "npm run sass && npm-run-all --parallel sass:watch serve",
     "sass": "node-sass --output-style compressed --source-map true scss/styles.scss docs/styles.css",
     "sass:watch": "npm run sass -- -w",
     "serve": "serve docs",
