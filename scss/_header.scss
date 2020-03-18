@@ -1,5 +1,5 @@
 .header__heading {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .link__header {
@@ -7,14 +7,9 @@
 }
 
 @media (min-width: 650px) {
-  .header__heading {
+  nav {
     display: flex;
-    justify-content: flex-start;
-    align-content: baseline;
-  }
-  .nav__links {
-    display: flex;
-    justify-content: flex-end;
-    align-content: baseline;
+    align-items: baseline;
+    justify-content: space-between;
   }
 }
