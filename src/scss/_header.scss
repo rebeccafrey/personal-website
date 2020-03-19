@@ -1,0 +1,15 @@
+.header__heading {
+  font-size: 2rem;
+}
+
+.link__header {
+  color: var(--secondary);
+}
+
+@media (min-width: 650px) {
+  nav {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+}
