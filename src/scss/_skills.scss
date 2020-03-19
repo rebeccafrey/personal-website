@@ -1,0 +1,44 @@
+.tags {
+  text-align: center;
+  @media (min-width: 650px) {
+    text-align: left;
+  }
+}
+
+.tags__items {
+  display: inline-block;
+  border: thin solid;
+  border-color: var(--primary);
+  padding: 10px;
+  margin: 5px;
+}
+
+.bio {
+  margin-top: 5px;
+}
+
+.bio__item {
+  margin-bottom: 10px;
+  margin-left: 15px;
+}
+
+@media (min-width: 650px) {
+  .skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    align-items: start;
+  }
+
+  .bio__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    align-items: start;
+  }
+
+  .skills__development,
+  .bio__work {
+    margin-right: 20px;
+  }
+}
