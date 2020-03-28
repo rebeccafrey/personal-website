@@ -13,6 +13,7 @@ img {
 
 .main {
   text-align: center;
+
   @media (min-width: 650px) {
     text-align: left;
   }
@@ -22,6 +23,7 @@ img {
   text-align: center;
   background-color: var(--primary);
   padding-bottom: 20px;
+
   @media (min-width: 650px) {
     display: flex;
     justify-content: space-around;
@@ -36,6 +38,7 @@ img {
   width: 250px;
   margin: auto;
   color: #a7027d;
+
   @media (min-width: 650px) {
     margin: 0;
   }
@@ -57,6 +60,7 @@ img {
       margin: 8px;
     }
   }
+
   .contact {
     display: flex;
   }

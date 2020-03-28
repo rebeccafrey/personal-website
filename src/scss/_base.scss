@@ -16,6 +16,7 @@ body {
 main {
   color: var(--primary);
   padding: 16px;
+
   @media (min-width: 650px) {
     padding: 30px;
   }
