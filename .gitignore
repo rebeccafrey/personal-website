@@ -2,3 +2,4 @@
 node_modules
 do_not_use
 .cache
+dist
