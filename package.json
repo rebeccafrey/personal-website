@@ -10,7 +10,6 @@
     "htmlhint": "htmlhint src/**/*.html",
     "stylelint": "stylelint src/scss",
     "stylelint:fix": "npm run stylelint -- --fix",
-    "eslint": "eslint src/js/**/*.js",
     "eslint:fix": "npm run eslint -- --fix",
     "fix": "npm run eslint:fix && npm run prettier && npm run stylelint:fix",
     "lint": "npm run eslint && npm run htmlhint && npm run stylelint",
