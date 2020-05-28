@@ -29,3 +29,31 @@ h3 {
 .link {
   padding: 8px;
 }
+
+.link__app {
+  color: var(--pink);
+  display: grid;
+  margin-bottom: 8px;
+}
+
+.animation__fadein {
+  animation: fadein 3s ease;
+  transform-origin: 50% 50%;
+  animation-fill-mode: forwards;
+
+  @keyframes fadein {
+    from {
+      opacity: 0;
+      transform: translate(0, -32px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translate(0, 0);
+    }
+  }
+}
+
+.img__app {
+  height: 400px;
+}

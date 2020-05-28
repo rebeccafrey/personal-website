@@ -27,6 +27,24 @@ header {
   width: 100%;
 }
 
+.header__animation {
+  animation: fadeup 3s ease;
+  transform-origin: 50% 50%;
+  animation-fill-mode: forwards;
+
+  @keyframes fadeup {
+    from {
+      opacity: 0;
+      transform: translate(0, 32px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translate(0, 0);
+    }
+  }
+}
+
 hr {
   width: 80%;
   margin: auto;
