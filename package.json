@@ -11,7 +11,7 @@
     "stylelint": "stylelint src/scss",
     "stylelint:fix": "npm run stylelint -- --fix",
     "fix": "npm run prettier && npm run stylelint:fix",
-    "lint": "npm run eslint && npm run htmlhint && npm run stylelint",
+    "lint": "npm run htmlhint && npm run stylelint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "husky": {
